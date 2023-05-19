@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: black;
+  margin: 0 2rem;
+}
+.UI {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+  color: azure;
+  font-size: larger;
+}
+
+.Front-End {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+  color: aliceblue;
+  font-size: larger;
+}
+.Back-end {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+  color: aliceblue;
+  font-size: larger;
+}
+
+.Services img {
+  width: 200px;
+  height: 150px;
+  justify-content: baseline;
+}
+
+.Front-End:hover,
+.Back-end:hover,
+.UI:hover {
+  background-color: rgba(184, 131, 15, 0.429);
+  color: black;
+}
+
+@media (min-width: 700px) {
+  .Services {
+    flex-direction: row;
+  }
+}
